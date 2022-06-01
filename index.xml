@@ -149,16 +149,6 @@
     </item>
     
     <item>
-      <title>About</title>
-      <link>https://noonsom.github.io/about.pt-br/</link>
-      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://noonsom.github.io/about.pt-br/</guid>
-      <description>Escrito em Go, Hugo é um gerador de sites estáticos de código aberto disponível sobre a licença Apache Licence 2.0. O Hugo suporta TOML, YAML e JSON como arquivos de dados, Markdown e HTML como arquivos de conteúdo, e usa shortcodes para adicionar conteúdos ricos. Outras funcionalidades notaveis são taxonomias, modo multilingual, processamento de imagens, formatos de saída customizaveis, minificação de HTML/CSS/JS e suporte a fluxos SASS/SCSS.
-O Hugo faz o uso de vários projetos de código aberto incluíndo:</description>
-    </item>
-    
-    <item>
       <title>Contact</title>
       <link>https://noonsom.github.io/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -173,15 +163,6 @@ O Hugo faz o uso de vários projetos de código aberto incluíndo:</description>
     </item>
     
     <item>
-      <title>Contato</title>
-      <link>https://noonsom.github.io/contact/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://noonsom.github.io/contact/</guid>
-      <description>Me siga em @joaoninguem.</description>
-    </item>
-    
-    <item>
       <title>Projects</title>
       <link>https://noonsom.github.io/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -191,15 +172,6 @@ O Hugo faz o uso de vários projetos de código aberto incluíndo:</description>
 💻 프로그래머 1명
 🏢 총원 2명
  🚢 항만 정비점검 시뮬레이터📆 개발 기간 2020.</description>
-    </item>
-    
-    <item>
-      <title>Projetos</title>
-      <link>https://noonsom.github.io/projects/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://noonsom.github.io/projects/</guid>
-      <description>Nada para ver aqui.. Circulando!</description>
     </item>
     
   </channel>

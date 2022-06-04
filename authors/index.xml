@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Authors on 비니의 아주작은 포트폴리오</title>
+    <title>Authors on 신나는 개발자 Blog</title>
     <link>https://noonsom.github.io/authors/</link>
-    <description>Recent content in Authors on 비니의 아주작은 포트폴리오</description>
+    <description>Recent content in Authors on 신나는 개발자 Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language><atom:link href="https://noonsom.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
   </channel>

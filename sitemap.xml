@@ -2,7 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://noonsom.github.io/portfolio/01_%EA%B2%BD%EA%B4%80%EC%8B%AC%EC%9D%98/</loc>
+    <lastmod>2022-06-04T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://noonsom.github.io/about/</loc>
+    <lastmod>2022-06-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://noonsom.github.io/portfolio/04_lh_3%EA%B8%B0%EC%8B%A0%EB%8F%84%EC%8B%9C/</loc>
+    <lastmod>2022-06-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://noonsom.github.io/portfolio/03_lh_%EA%B5%AC%EB%A6%AC%EA%B0%88%EB%A7%A4/</loc>
+    <lastmod>2022-06-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://noonsom.github.io/portfolio/02_lh_%EB%B0%80%EC%96%91%EB%B6%80%EB%B6%81/</loc>
+    <lastmod>2022-06-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://noonsom.github.io/tags/portfolio/</loc>
+    <lastmod>2022-06-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://noonsom.github.io/portfolio/</loc>
+    <lastmod>2022-06-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://noonsom.github.io/tags/</loc>
+    <lastmod>2022-06-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://noonsom.github.io/</loc>
+    <lastmod>2022-06-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://noonsom.github.io/portfolio/06_%EC%B8%A1%EB%9F%89vr/</loc>
+    <lastmod>2022-06-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://noonsom.github.io/portfolio/05_%ED%95%AD%EB%A7%8Cvrar/</loc>
     <lastmod>2022-06-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://noonsom.github.io/categories/</loc>
@@ -38,9 +68,6 @@
     <loc>https://noonsom.github.io/categories/syntax/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://noonsom.github.io/tags/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://noonsom.github.io/categories/temas/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
@@ -48,9 +75,6 @@
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://noonsom.github.io/series/themes-guide/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://noonsom.github.io/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://noonsom.github.io/posts/rich-content.pt-br/</loc>

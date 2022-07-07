@@ -1,0 +1,35 @@
+
+header { 
+  position: fixed;
+  top: 0;
+  /* width: 100% */
+  left: 0;
+  right: 0;
+}
+
+p {
+  color: blueviolet;
+}
+
+.section01 {
+  padding-top: 550px;
+}
+
+@font-face {
+  src: url("../Fonts/netmarbleB.ttf");
+  font-family: "fontfam";
+}
+
+.newfont {
+  font-family: "fontfam";
+  color: orange;
+}
+
+.TEST {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background: url("../Images/background.jpg") no-repeat center/cover;
+  padding-top: 120px;
+}

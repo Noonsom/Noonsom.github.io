@@ -1,229 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>신나는 개발자 Blog</title>
-    <link>https://noonsom.github.io/</link>
-    <description>Recent content on 신나는 개발자 Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Sat, 04 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://noonsom.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>3차원 경관심의 시뮬레이터</title>
-      <link>https://noonsom.github.io/portfolio/01_%EA%B2%BD%EA%B4%80%EC%8B%AC%EC%9D%98/</link>
-      <pubDate>Sat, 04 Jun 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://noonsom.github.io/portfolio/01_%EA%B2%BD%EA%B4%80%EC%8B%AC%EC%9D%98/</guid>
-      <description> 🚢 3차원 경관심의 기술공모전🦋 사업 개요 국토교통부 주관 경관심의 프로그램 개발 공모전 참여 프로그램   관련 자료 : http://www.molit.go.kr/USR/NEWS/m_71/dtl.jsp?lcmspage=1&amp;amp;id=95084316   우수상(2위) 입상  📆 개발 기간 2020.9 ~ 2021.10 (1달)  🙎‍♂️ 참여 인원 📰 기획자 1명 💻 프로그래머 1명 (본인) 🏢 총원 2명  </description>
-    </item>
-    
-    <item>
-      <title>Chanbin_About</title>
-      <link>https://noonsom.github.io/about/</link>
-      <pubDate>Sat, 04 Jun 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://noonsom.github.io/about/</guid>
-      <description>🎨 안녕하세요, 김찬빈입니다.🦋 제가 만든 프로그램으로 많은 사람들에게 즐거움을 안겨주고 싶어하는 개발자.
-🦋 열정으로 뭉친 개발자 김찬빈입니다.
-📛 Name : 김찬빈 (Chanbin Kim)
-📱 mobile : 010-7291-7331
-✉️ Email : cong8685@naver.com
-💻 GitHub : https://github.com/Noonsom
-🏛️ 경력 🏫 2014 ~ 2017 | 송원중학교 졸업 🏫 2017 ~ 2019 | 수원정보과학고등학교 디지털 네트워크과 졸업 🏢 2019 ~ ing | (주)코아텍 사원 개발자로 업무 진행중  </description>
-    </item>
-    
-    <item>
-      <title>LH - 3기신도시 홍보 시뮬레이터</title>
-      <link>https://noonsom.github.io/portfolio/04_lh_3%EA%B8%B0%EC%8B%A0%EB%8F%84%EC%8B%9C/</link>
-      <pubDate>Sat, 04 Jun 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://noonsom.github.io/portfolio/04_lh_3%EA%B8%B0%EC%8B%A0%EB%8F%84%EC%8B%9C/</guid>
-      <description> 🚢 LH 3기신도시 홍보 시뮬레이터🦋 사업 개요 LH 한국토지주택공사 주관, 2021 3기신도시를 미리 체험해볼 수 있는 시뮬레이터 개발 안산장상 지구 남양주왕숙 지구 인천계양 지구 https://www.youtube.com/watch?v=CEFawkPgCCQ&amp;amp;t=5s https://www.youtube.com/watch?v=kDPpZWRZAbI&amp;amp;t=273s https://www.youtube.com/watch?v=7CRVHdwmhgs&amp;amp;t=28s  📆 개발 기간 2021.9 ~ 2021.12 (1달)  💻 개발 엔진 Unreal Engine 사용 (C++)  🙎‍♂️ 참여 인원 📰 기획자 1명 🎨 디자이너 2명 💻 프로그래머 1명 (본인) 🏢 총원 4명  </description>
-    </item>
-    
-    <item>
-      <title>LH - 구리갈매 시뮬레이터</title>
-      <link>https://noonsom.github.io/portfolio/03_lh_%EA%B5%AC%EB%A6%AC%EA%B0%88%EB%A7%A4/</link>
-      <pubDate>Sat, 04 Jun 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://noonsom.github.io/portfolio/03_lh_%EA%B5%AC%EB%A6%AC%EA%B0%88%EB%A7%A4/</guid>
-      <description> 🚢 LH 구리갈매 지구 3차원 VR 시뮬레이터🦋 사업 개요 LH 한국토지주택공사 주관, 구리갈매 지구를 VR로 미리 확인할 수 있는 시뮬레이터  📆 개발 기간 2020.9 ~ 2021.10 (1달)  💻 개발 엔진 Unreal Engine 사용 (C++)  🙎‍♂️ 참여 인원 📰 기획자 1명 🎨 디자이너 2명 💻 프로그래머 1명 (본인) 🏢 총원 3명  </description>
-    </item>
-    
-    <item>
-      <title>LH - 밀양부북 시뮬레이터</title>
-      <link>https://noonsom.github.io/portfolio/02_lh_%EB%B0%80%EC%96%91%EB%B6%80%EB%B6%81/</link>
-      <pubDate>Sat, 04 Jun 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://noonsom.github.io/portfolio/02_lh_%EB%B0%80%EC%96%91%EB%B6%80%EB%B6%81/</guid>
-      <description> 🚢 LH 밀양부북 지구 3차원 VR 시뮬레이터🦋 사업 개요 LH 한국토지주택공사 주관, 밀양부북 지구를 VR로 미리 확인할 수 있는 시뮬레이터  📆 개발 기간 2020.9 ~ 2021.10 (1달)  💻 개발 엔진 Unreal Engine 사용 (C++)  🙎‍♂️ 참여 인원 📰 기획자 1명 🎨 디자이너 1명 💻 프로그래머 1명 (본인) 🏢 총원 3명  </description>
-    </item>
-    
-    <item>
-      <title>측량 장비 교육 시뮬레이터</title>
-      <link>https://noonsom.github.io/portfolio/06_%EC%B8%A1%EB%9F%89vr/</link>
-      <pubDate>Sat, 04 Jun 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://noonsom.github.io/portfolio/06_%EC%B8%A1%EB%9F%89vr/</guid>
-      <description> 🚢 측량 장비 교육 VR 시뮬레이터🦋 사업 개요 VR 기기 (HTC VIVE Cosmos Elite) 사용 COVID-19로 인한 비대면 교육 전환에 맞춰, 집에서도 VR을 착용하여 측량 실습 교육을 하거나, 장비를 다뤄볼 수 있도록 프로그램 개발.  📆 개발 기간 2021.12 ~ 2022.06 (6달)  💻 개발 엔진 Unreal Engine 사용 (C++)  🙎‍♂️ 참여 인원 📰 기획자 1명 🎨 디자이너 1명 💻 프로그래머 1명 (본인) 🏢 총원 3명  </description>
-    </item>
-    
-    <item>
-      <title>항만 장비 정비점검 시뮬레이터</title>
-      <link>https://noonsom.github.io/portfolio/05_%ED%95%AD%EB%A7%8Cvrar/</link>
-      <pubDate>Sat, 04 Jun 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://noonsom.github.io/portfolio/05_%ED%95%AD%EB%A7%8Cvrar/</guid>
-      <description> 🚢 항만 장비 정비점검 VR/AR 시뮬레이터🦋 사업 개요 AR 기기 (Hololens 2) 사용 VR 기기 (HTC VIVE Cosmos) 사용 항만의 겐트리 크레인 정비 점검 작업을 VR상에서 미리 체험할 수 있는 시뮬레이터 개발  📆 개발 기간 2020.9 ~ 2021.10 (1달)  💻 개발 엔진 Unity Engine 사용 (C#)  🙎‍♂️ 참여 인원 📰 기획자 1명 🎨 디자이너 1명 💻 프로그래머 1명 (본인) 🏢 총원 3명  </description>
-    </item>
-    
-    <item>
-      <title>Guia de Sintaxe Markdown</title>
-      <link>https://noonsom.github.io/posts/markdown-syntax.pt-br/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://noonsom.github.io/posts/markdown-syntax.pt-br/</guid>
-      <description>&lt;p&gt;Esse artigo é um exemplo básico para mostrar a sintaxe Markdown que é usada nos arquivos de conteúdo do Hugo. Ele também mostrar como cada elemento básico HTML é estilizado com CSS com os temas do Hugo.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Markdown Syntax Guide</title>
-      <link>https://noonsom.github.io/posts/markdown-syntax/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://noonsom.github.io/posts/markdown-syntax/</guid>
-      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Conteúdo Rico</title>
-      <link>https://noonsom.github.io/posts/rich-content.pt-br/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://noonsom.github.io/posts/rich-content.pt-br/</guid>
-      <description>&lt;p&gt;O Hugo vem com vários &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugos-built-in-shortcodes&#34;&gt;Shortcodes Internos&lt;/a&gt; para conteúdo rico, assim como uma &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;&gt;Configuração de Privacidade&lt;/a&gt; e uma gama de Shortcodes simples que permitem embutir versões estáticas e sem JS de várias de redes sociais.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Rich Content</title>
-      <link>https://noonsom.github.io/posts/rich-content/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://noonsom.github.io/posts/rich-content/</guid>
-      <description>&lt;p&gt;Hugo ships with several &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugos-built-in-shortcodes&#34;&gt;Built-in Shortcodes&lt;/a&gt; for rich content, along with a &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;&gt;Privacy Config&lt;/a&gt; and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Mais Conteúdo Rico</title>
-      <link>https://noonsom.github.io/posts/more-rich-content.pt-br/</link>
-      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://noonsom.github.io/posts/more-rich-content.pt-br/</guid>
-      <description>&lt;p&gt;O Hugo Coder proporciona alguns Shortcodes Customizados.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>More Rich Content</title>
-      <link>https://noonsom.github.io/posts/more-rich-content/</link>
-      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://noonsom.github.io/posts/more-rich-content/</guid>
-      <description>&lt;p&gt;Hugo Coder provides some Custom Shortcodes.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Placeholder Text</title>
-      <link>https://noonsom.github.io/posts/placeholder-text/</link>
-      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://noonsom.github.io/posts/placeholder-text/</guid>
-      <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Texto de Exemplo</title>
-      <link>https://noonsom.github.io/posts/placeholder-text.pt-br/</link>
-      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://noonsom.github.io/posts/placeholder-text.pt-br/</guid>
-      <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Configuração de Equações Matemáticas</title>
-      <link>https://noonsom.github.io/posts/math-typesetting.pt-br/</link>
-      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://noonsom.github.io/posts/math-typesetting.pt-br/</guid>
-      <description>&lt;p&gt;Em um projeto Hugo as Notações Matemáticas podem ser usadas com a ajuda de bibliotecas JavaScript de terceiros.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Math Typesetting</title>
-      <link>https://noonsom.github.io/posts/math-typesetting/</link>
-      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://noonsom.github.io/posts/math-typesetting/</guid>
-      <description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Emoji Support</title>
-      <link>https://noonsom.github.io/posts/emoji-support/</link>
-      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://noonsom.github.io/posts/emoji-support/</guid>
-      <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Suporte a Emojis</title>
-      <link>https://noonsom.github.io/posts/emoji-support.pt-br/</link>
-      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://noonsom.github.io/posts/emoji-support.pt-br/</guid>
-      <description>&lt;p&gt;Emojis podem ser ativados em um projeto Hugo de diversar formas.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>External Page: Hugo Coder Wiki</title>
-      <link>https://noonsom.github.io/posts/hugo-coder-wiki/</link>
-      <pubDate>Mon, 04 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://noonsom.github.io/posts/hugo-coder-wiki/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Página Externa: Wiki Hugo Coder</title>
-      <link>https://noonsom.github.io/posts/hugo-coder-wiki/</link>
-      <pubDate>Mon, 04 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://noonsom.github.io/posts/hugo-coder-wiki/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Chanbin_PortFolio</title>
-      <link>https://noonsom.github.io/projects/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://noonsom.github.io/projects/</guid>
-      <description>  </description>
-    </item>
-    
-    <item>
-      <title>Contact</title>
-      <link>https://noonsom.github.io/contact/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://noonsom.github.io/contact/</guid>
-      <description>🎨 안녕하세요, 김찬빈입니다.🦋 제게 관심이 있으시다면, 아래 이메일이나 전화번호로
-🦋 연락을 남겨주시면, 빠른 시일 내에 확인하여 답변 드립니다.
-📛 Name : 김찬빈 (Chanbin Kim)
-📱 mobile : 010-7291-7331
-✉️ Email : cong8685@naver.com
-💻 GitHub : https://github.com/Noonsom</description>
-    </item>
-    
-  </channel>
-</rss>

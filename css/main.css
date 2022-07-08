@@ -41,6 +41,28 @@ text-align: center;
   justify-content: center;
 }
 
+/* 반응형 웹 사이트를 위한 미디어 쿼리 설정 */
+/* 모바일 반응 */
+@media (min-width: 340px) {
+  .section1 {
+    font-size: 130%;
+  }
+}
+
+/* 패드 반응 */
+@media (min-width: 768px) {
+  .section1 {
+    font-size: 180%;
+  }
+}
+
+/* PC 이상 반응 */
+@media (min-width: 1024px) {
+  .section1 {
+    font-size: 190%;
+  }
+}
+
 /* 폰트 추가 (넷마블, https://noonnu.cc/font_page/118, 상업/재배포 가능) */
 @font-face {
   src: url("../Fonts/netmarbleB.ttf");

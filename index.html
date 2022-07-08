@@ -1,113 +1,71 @@
 <!DOCTYPE html>
-<html>
- <!-----HTML HEAD 시작 부분----->
+<html lang="en">
+
 <head>
-	<!-- CSS 읽어오기 -->
-	<link rel="stylesheet" href="./css/main.css">  
+	<!-- 페이지 기본 메타 설정 -->
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<!-- 파비콘 설정 -->
 	<link rel="shortcut icon" href="favicon.ico?">
+
+	<!-- CSS, Js 파일 읽어오기 -->
+	<link rel="stylesheet" href="./css/main.css">
+	<script type="text/javascript" src="./Script/main.js"></script>
 
 	<!-- 사이트 이름 설정 -->
 	<title>KCB's Portfolio</title>
 </head>
 
- <!-----HTML BODY 시작 부분----->
-<body class="TEST newfont";>
-	<header>
-		<img src="./Images/information.png" style="width: 54px; height: 54px; text-align: center;">
-	</header>
+<!-- HTML 시작 -->
+<!-- 폰트 설정 -->
 
-	<div style="padding-top: 150px;">
-		<p style="text-align: center; font-size: 500%; color: white;">
-			KCB's PortFolio
-			<p style="text-align: center; font-size: 250%; color: white; margin-top: -80px;">
-				사용자가 원하는 프로그램이란 뭘까?
-			</p>
+<body class="newfont">
+
+	<!-- 1번 섹션 (최상단 메인 페이지) -->
+	<div class="section section1">
+		<p style="font-size: 200%; color: white; line-height: 70%;">
+			KCB's PortFolio<br>
+			<span style="font-size: 50%; line-height: 70%;">"훌륭한 코드는 훌륭한 문서보다 낫다"<br><br></span>
+			<span style="font-size: 40%; line-height: 70%;">소프트웨어 엔지니어, 김찬빈입니다. </span>
+		</p>
+
+	</div>
+
+	<!-- 2번 섹션 (About 페이지) -->
+	<div class="section section_base" style="font-size: 32px; text-align: center; background-color: skyblue;">
+		<p style="font-size: 120%; color:rgb(1, 27, 16);">
+			-About-
 		</p>
 	</div>
 
-	<div class="section01">
-	<a name="section01">
-		<h1 style="background-color: yellowgreen; color: blue; text-align: center;">서식</h1>
-	</a>
-	<hr>
-
-	<a href="https://www.google.com"><b>
-			<h1>서식 (Formatting)</h1>
-		</b> </a>
-	<p class="newfont">HTML은 텍스트(text)에 다양한 효과를 주는 여러 태그(tag)를 제공합니다.🚀</p>
-	<br>
-	<hr>
-	<h1>강조 효과</h1>
-	<p>HTML 문서에서 텍스트를 굵게 표현하고 싶을 때에는 <b>태그(Bold Text)</b>나 <strong>태그를</strong> 사용하면 됩니다.</strong></p>
-	<hr>
-	<p><i>"이 부분"</i>은 단순히 글씨가 이탤릭체인 부분이에요!</p>
-	<p><em>"이 부분"</em>은 중요한 부분이라서 이탤릭체로 표현됐어요!</p>
-	<hr>
-	<p><mark>"이 부분"</mark>만 하이라이팅하고 싶어요.</p>
-	<hr>
-	<p><del>"이 부분"</del>을 지운 것처럼 하고 싶어요.</p>
-	<hr>
-	<p><ins>"밑줄 친 부분"</ins>에 들어갈 알맞은 말을 고르세요.</p>
-	<hr>
-	<p>X<sup>2</sup> + Y<sup>3</sup> = Z</p>
-	<p>물을 나타내는 화학식은 H<sub>2</sub>O 입니다.</p>
-	<hr>
-	<p>HTML의 정의는
-		<q>웹 페이지를 만들기 위한 하이퍼텍스트 마크업 언어</q>
-		입니다.
-	</p>
-	<p><strong><abbr title="HyperText Markup Language 5">HTML5</abbr></strong>
-		란 웹 문서를 제작하는 데 쓰이는 프로그래밍 언어인 HTML의 최신규격입니다.</p>
-	<input type="text" style="width: 100px; height: 100px">
-	<button>버튼</button>
-
-
-	<div id="heada">
-		<h1><a name="Number2">서식2222</a></h1>
+	<!-- 3번 섹션 (Skills 페이지) -->
+	<div class="section section_base" style="font-size: 32px; text-align: center; background-color: pink;">
+		<p style="font-size: 120%; color:rgb(1, 27, 16);">
+			-Skills-
+		</p>
 	</div>
-	<hr>
-	<h1>서식 2222(Formatting)</h1>
-	<p>HTML은 텍스트(text)에 다양한 효과를 주는 여러 태그(tag)를 제공합니다.🚀</p>
-	<br>
-	<hr>
-	<h1>강조 효과</h1>
-	<p>HTML 문서에서 텍스트를 굵게 표현하고 싶을 때에는 <b>태그(Bold Text)</b>나 <strong>태그를</strong> 사용하면 됩니다.</strong></p>
-	<hr>
-	<p><i>"이 부분"</i>은 단순히 글씨가 이탤릭체인 부분이에요!</p>
-	<p><em>"이 부분"</em>은 중요한 부분이라서 이탤릭체로 표현됐어요!</p>
-	<hr>
-	<p><mark>"이 부분"</mark>만 하이라이팅하고 싶어요.</p>
-	<hr>
-	<p><del>"이 부분"</del>을 지운 것처럼 하고 싶어요.</p>
-	<hr>
-	<p><ins>"밑줄 친 부분"</ins>에 들어갈 알맞은 말을 고르세요.</p>
-	<hr>
-	<p>X<sup>2</sup> + Y<sup>3</sup> = Z</p>
-	<p>물을 나타내는 화학식은 H<sub>2</sub>O 입니다.</p>
-	<hr>
-	<p>HTML의 정의는
-		<q>웹 페이지를 만들기 위한 하이퍼텍스트 마크업 언어</q>
-		입니다.
-	</p>
-	<p><strong><abbr title="HyperText Markup Language 5">HTML5</abbr></strong>
-		란 웹 문서를 제작하는 데 쓰이는 프로그래밍 언어인 HTML의 최신규격입니다.</p>
-	<input type="text" style="width: 100px; height: 100px">
-	<button>버튼</button>
 
-	<li> 테스트1 </li>
-	<li> 테스트2 </li>
-	<li> 테스트3 </li>
-
-	<div id="nav">
-		<h1><a name="Number2">서식2222</a></h1>
+	<!-- 4번 섹션 (PortFolio 페이지) -->
+	<div class="section section_base" style="font-size: 32px; text-align: center; background-color: palegoldenrod;">
+		<p style="font-size: 120%; color:rgb(1, 27, 16);">
+			-PortFolio-
+		</p>
 	</div>
-	<hr>
-	<h1>서식 2222(Formatting)</h1>
-	<p>HTML은 텍스트(text)에 다양한 효과를 주는 여러 태그(tag)를 제공합니다.🚀</p>
-	<br>
-	<hr>
+
+	<!-- 5번 섹션 (History 페이지) -->
+	<div class="section section_base" style="font-size: 32px; text-align: center; background-color: violet;">
+		<p style="font-size: 120%; color:rgb(1, 27, 16);">
+			-History-
+		</p>
+	</div>
+
+	<!-- 6번 섹션 (Contect 페이지) -->
+	<div class="section section_base" style="font-size: 32px; text-align: center; background-color: rgb(0, 255, 149);">
+		<p style="font-size: 120%; color:rgb(1, 27, 16);">
+			-Contect-
+		</p>
 	</div>
 </body>
 

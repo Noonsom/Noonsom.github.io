@@ -1,25 +1,46 @@
 /* 스크롤 탭 가리기 */
 html {
   overflow: hidden;
+  scroll-behavior: smooth;
 }
 
 /* 움직이는 애니메이션의 전체적인 속도 설정 */
-*{
+* {
   transition-duration: 0.8s;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  height: 75px;
+  padding: 1rem;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header img {
+  width: 50px;
+  height: 50px;
 }
 
 /* HTML 화면이 꽉 차도록 설정 */
 body {
-margin: 0;
-padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 /* 화면에 꽉 차도록 설정하고, 기본 폰트 데이터 설정 */
 div {
-width: 100%;
-height: 100vh;
-font-size: 32px; 
-text-align: center;
+  width: 100%;
+  height: 100vh;
+  font-size: 32px;
+  text-align: center;
 }
 
 /* 최상단 메인화면 섹션 설정 */
@@ -27,7 +48,7 @@ text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
-  
+
   height: 100vh;
   background-repeat: no-repeat;
   background-position: center;
@@ -47,12 +68,22 @@ text-align: center;
   .section1 {
     font-size: 130%;
   }
+
+  header img {
+    width: 30px;
+    height: 30px;
+  }
 }
 
 /* 패드 반응 */
 @media (min-width: 768px) {
   .section1 {
     font-size: 180%;
+  }
+  
+  header img {
+    width: 50px;
+    height: 50px;
   }
 }
 
@@ -61,6 +92,11 @@ text-align: center;
   .section1 {
     font-size: 190%;
   }
+
+  header img {
+    width: 50px;
+    height: 50px;
+  }
 }
 
 /* 폰트 추가 (넷마블, https://noonnu.cc/font_page/118, 상업/재배포 가능) */
@@ -68,6 +104,7 @@ text-align: center;
   src: url("../Fonts/netmarbleB.ttf");
   font-family: "fontfam";
 }
+
 .newfont {
   font-family: "fontfam";
   color: orange;

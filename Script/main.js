@@ -1,3 +1,6 @@
+var Urls = new Array("#Main", "#About", "#PortFolio", "#History", "#Contect");
+let test = 0;
+
 window.onload = function(){
   // 문서 내에서 .section 클래스를 가진 구문을 검색한다.
   const elm = document.querySelectorAll('.section');
@@ -25,6 +28,7 @@ window.onload = function(){
       if (delta < 0){
         if (elmSelector !== elmCount-1){
           try{
+            if (test < 4) test++;
             moveTop = window.pageYOffset + elmSelector.nextElementSibling.getBoundingClientRect().top;
           }catch(e){}
         }
@@ -33,14 +37,48 @@ window.onload = function(){
       else{
         if (elmSelector !== 0){
           try{
+            if (test != 0) test--;
             moveTop = window.pageYOffset + elmSelector.previousElementSibling.getBoundingClientRect().top;
-          }catch(e){}
+          }catch(e){ alert("TEST");}
         }
       }
-      
+
+      window.location = window.location.origin + Urls[test];
+      // window.location.reload();
       // 이동시 움직임은 부드럽게 설정
       const body = document.querySelector('html');
       window.scrollTo({top:moveTop, left:0, behavior:'smooth'});
     });
   });
+
+  document.getElementById("Menu_Main").onclick = function()
+  {
+    test = 0;
+    window.location = window.location.origin + Urls[test];
+  }
+
+  document.getElementById("Menu_About").onclick = function()
+  {
+    test = 1;
+    window.location = window.location.origin + Urls[test];
+  }
+
+  document.getElementById("Menu_PortFolio").onclick = function()
+  {
+    test = 2;
+    window.location = window.location.origin + Urls[test];
+    
+  }
+
+  document.getElementById("Menu_History").onclick = function()
+  {
+    test = 3;
+    window.location = window.location.origin + Urls[test];
+  }
+
+  document.getElementById("Menu_Contect").onclick = function()
+  {
+    test = 4;
+    window.location = window.location.origin + Urls[test];
+  }
 }

@@ -25,24 +25,24 @@ header {
 }
 
 .menu{}
-.menu li
-{ 
+.menu li { 
   list-style: none;
   list-style-type: none;
   margin-left: 50px;
   float: left;
   align-items: center;
 }
-.menu a{
+.menu a {
   color: white;
+  display: block;
   text-decoration-line: none;
   text-decoration: none;
   text-shadow: -2px 0px black, 0px 2px black, 2px 0px black, 0px -2px black;
 }
 
-header img {
-  width: 50px;
-  height: 50px;
+.menu a:hover {
+  color: aquamarine;
+  font-size: 150%;
 }
 
 /* HTML 화면이 꽉 차도록 설정 */

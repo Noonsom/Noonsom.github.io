@@ -20,7 +20,7 @@ header {
   color: white;
   font-weight: bold;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -72,18 +72,6 @@ div {
   background: url("../Images/background.jpg") no-repeat center/cover;
 }
 
-/* 기타 섹션 기본 설정 */
-.section_base {
-  display: flex;
-}
-.section_base h1 {
-  position: relative;
-  display: inline-block;
-  font-size: 2.4em;
-  font-weight: 400;
-  margin: 30px 0;
-}
-
 /* 반응형 웹 사이트를 위한 미디어 쿼리 설정 */
 /* 모바일 반응 */
 @media (min-width: 340px) {
@@ -91,10 +79,10 @@ div {
     font-size: 130%;
   }
 
-  header img {
-    width: 30px;
-    height: 30px;
+  .section_base {
+    display: block;
   }
+
 }
 
 /* 패드 반응 */
@@ -103,9 +91,8 @@ div {
     font-size: 180%;
   }
   
-  header img {
-    width: 50px;
-    height: 50px;
+  .section_base {
+    display: flex;
   }
 }
 
@@ -115,9 +102,8 @@ div {
     font-size: 190%;
   }
 
-  header img {
-    width: 50px;
-    height: 50px;
+  .section_base {
+    display: flex;
   }
 }
 

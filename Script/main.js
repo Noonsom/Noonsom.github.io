@@ -1,4 +1,4 @@
-var Urls = new Array("#Main", "#About", "#PortFolio", "#History", "#Contect");
+var Urls = new Array("#Main", "#About", "#Skills", "#PortFolio", "#Contact");
 let test = 0;
 
 window.onload = function(){
@@ -67,7 +67,6 @@ window.onload = function(){
   {
     test = 2;
     window.location = window.location.origin + Urls[test];
-    
   }
 
   document.getElementById("Menu_History").onclick = function()
@@ -76,7 +75,7 @@ window.onload = function(){
     window.location = window.location.origin + Urls[test];
   }
 
-  document.getElementById("Menu_Contect").onclick = function()
+  document.getElementById("Menu_Contact").onclick = function()
   {
     test = 4;
     window.location = window.location.origin + Urls[test];

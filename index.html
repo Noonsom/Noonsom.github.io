@@ -12,6 +12,10 @@
 
 	<!-- CSS, Js 파일 읽어오기 -->
 	<link rel="stylesheet" href="/css/main.css">
+	<link rel="stylesheet" href="/css/about.css">
+	<link rel="stylesheet" href="/css/skills.css">
+	<link rel="stylesheet" href="/css/portfolio.css">
+	<link rel="stylesheet" href="/css/contact.css">
 	<script type="text/javascript" src="/Script/main.js"></script>
 
 	<!-- 사이트 이름 설정 -->
@@ -20,94 +24,89 @@
 
 <!-- HTML 시작 -->
 <!-- 폰트 설정 -->
-
 <body class="BoldFont">
 
-	<!-- 헤더 설정 (상단 메뉴바) -->
+<!-- 헤더 설정 (상단 메뉴바) -->
 <header>
 	<nav class="menu" style="display: block; text-align: center;">
 		<li><a id="Menu_Main" href="#Main">Home</a></li>
 		<li><a id="Menu_About" href="#About">About</a></li>
-		<li><a id="Menu_Portfolio" href="#Portfolio">Portfolio</a></li>
-		<li><a id="Menu_History" href="#History">History</a></li>
-		<li><a id="Menu_Contect" href="#Contect">Contect</a></li>
+		<li><a id="Menu_History" href="#Skills">Skills</a></li>
+		<li><a id="Menu_PortFolio" href="#Portfolio">Portfolio</a></li>
+		<li><a id="Menu_Contact" href="#Contact">Contact</a></li>
 	</nav>
 </header>
 
 	<!-- 1번 섹션 (최상단 메인 페이지) -->
 	<div id="Main" class="section section1">
-		<p style="font-size: 200%; color: white; line-height: 70%;">
+		<p>
 			KCB's PortFolio<br>
-			<span style="font-size: 50%; line-height: 70%;">"훌륭한 코드는 훌륭한 문서보다 낫다"<br><br></span>
-			<span style="font-size: 40%; line-height: 70%;">소프트웨어 엔지니어, 김찬빈입니다. </span>
+			<span class="typing1" style="font-size: 50%; line-height: 70%;">"훌륭한 코드는 훌륭한 문서보다 낫다"</span>
+			<span style="font-size: 40%; line-height: 70%;"><br>소프트웨어 엔지니어, 김찬빈입니다. </span>
 		</p>
 
 	</div>
 
 	<!-- 2번 섹션 (About 페이지) -->
-	<div id="About" class="section section_base" style="background-color: aliceblue;
-	justify-content: center; align-items: center;">
-		<p style="font-size: 120%; color:rgb(1, 27, 16);">
-			<img src="/Images/Profile.jpg" style="border-radius: 70%; width: 250px; height: 250px;"><br>
-			&#128400; About &#128400;<br>
-		</p>
-		<p style="margin-left: 50px; text-align: left; line-height: 25px;">
-			"창의성은 불확실에 도전하는 것"<sub style="font-size: 50%; color: grey;">- 빌로퍼 (스타크래프트)</sub> <br><br>
+	<div id="About" class="section section_base"
+		style="justify-content: center; align-items: center;">
+		<section class="about" style="display: block">
+			<p class="about" id="about" style="margin-top: -150px; font-size: 120%; color:rgb(1, 27, 16);">
+				<h2 class="title">About</h2>
+			</p>
+			
+			<p style="display: flex;">
+				<img src="/Images/Profile.jpg" style="border-radius: 10%; width: 280px; height: 280px;">
+				<span style="margin-left: 45px; text-align: left; line-height: 25px;">
+					<br>"창의성은 불확실에 도전하는 것"
+					<sub style="font-size: 50%; color: grey;">- 빌로퍼 (개발자)</sub><br><br>
+					<span style="font-size: 65%; line-height: 12px;" class="NormalFont">
+						직접 만든 게임을 다른 사용자가 플레이하면서 즐거워하는 것을 보고,<br>
+						더불어 프로그램을 만드는것이 즐겁다 느끼며 개발자를 꿈꾸게 되었습니다.
+						<br><br>
+						멈춰있지 않고, VR과 AR, 안드로이드와 PC를 넘어, <br>
+						모든 사용자분들에게 좋은 영향을 줄 수 있는 개발자가 제 목표입니다.
+					</span>
+					<br><br>
+					<a href="https://github.com/Noonsom">
+						<img src="/Images/GitHub.png" style="width: 50px; height: 50px;"></a>
+					<a href="https://devbini.tistory.com">
+						<img src="/Images/Tistory.png" style="width: 50px; height: 50px; margin-left: 5%;"></a>
+					<a href="mailto:cong8685@naver.com">
+						<img src="/Images/Email.png" style="width: 50px; height: 50px; margin-left: 5%;"></a>		
+				</span>
+			</p>
+		</section>
+	</div>
 
-			<span style="font-size: 65%; line-height: 12px;" class="NormalFont">
-			직접 만든 게임을 다른 사용자가 플레이하면서 즐거워하는 것을 보고,<br>
-			더불어 프로그램을 만드는것이 즐겁다 느끼며 개발자를 꿈꾸게 되었습니다.
-			<br><br>
-			멈춰있지 않고, VR과 AR, 안드로이드와 PC를 넘어, <br>
-			모든 사용자분들에게 좋은 영향을 줄 수 있는 개발자가 제 목표입니다.
-			</span>
-			<br><br>
-			<a href="https://github.com/Noonsom">
-			<img src="/Images/GitHub.png" style="width: 50px; height: 50px;"></a>
-			<a href="https://devbini.tistory.com">
-			<img src="/Images/Tistory.png" style="width: 50px; height: 50px; margin-left: 5%;"></a>
-			<a href="mailto:cong8685@naver.com">
-			<img src="/Images/Email.png" style="width: 50px; height: 50px; margin-left: 5%;"></a>
-		</p>
+	<!-- 3번 섹션 (Skills 페이지) -->
+	<div id="Skills" class="section section_base"
+	style="justify-content: center; align-items: center;">
+		<section class="skills" style="display: block">
+			<p class="skills" id="skills" style="margin-top: -100px; font-size: 120%; color:rgb(1, 27, 16);">
+				<h2 class="title">Skills</h2>
+			</p>
+		</section>
 	</div>
 
 	<!-- 3번 섹션 (PortFolio 페이지) -->
-	<div id="Portfolio" class="section section_base" style="font-size: 32px; text-align: center; background-color: aliceblue;">
-		<p style="font-size: 120%; color:rgb(1, 27, 16);">
-			&#x1F4BB; PortFolio
-		</p>
+	<div id="Portfolio" class="section section_base"
+	style="justify-content: center; align-items: center;">
+		<section class="portfolio" style="display: block">
+			<p class="portfolio" id="portfolio" style="margin-top: -100px; font-size: 120%; color:rgb(1, 27, 16);">
+				<h2 class="title">PortFolio</h2>
+			</p>
+		</section>
 	</div>
 
-	<!-- 4번 섹션 (History 페이지) -->
-	<div id="History" class="section section_base" style="font-size: 32px;
-			text-align: center; background-color: aliceblue; justify-content: center; align-items: center;">
-		<p style="font-size: 120%; color:rgb(1, 27, 16);">
-			&#127979; History &#127979;<br> <br>
-			<a style=" display: block;
-				height: 250px;
-				width: 200%;
-				margin: 10px auto;
-				border: 5px solid #000000;
-				position: relative;
-				background-color: aliceblue;
-				box-sizing: border-box;
-				border-radius: 10px;">
-				<a style="padding: 5px 10px;
-					background-color: yellow;
-					text-align: center;
-					position: absolute;
-					top: 50%;
-					left: 50%;">fa
-				</a>
-			</a>
-		</p>
-	</div>
-
-	<!-- 5번 섹션 (Contect 페이지) -->
-	<div id="Contect" class="section section_base" style="font-size: 32px; text-align: center; background-color: aliceblue;">
-		<p style="font-size: 120%; color:rgb(1, 27, 16);">
-			&#128222; Contect
-		</p>
+	<!-- 5번 섹션 (Contact 페이지) -->
+	<div id="Contact" class="section section_base"
+	style="justify-content: center; align-items: center;">
+		<section class="contact" style="display: block">
+			<p class="contact" id="contact" style="margin-top: -100px; font-size: 120%; color:rgb(1, 27, 16);">
+				<h2 class="title">Contact</h2>
+			</p>
+		</section>
 	</div>
 </body>
 

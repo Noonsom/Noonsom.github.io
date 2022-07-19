@@ -9,42 +9,6 @@ html {
   transition-duration: 0.8s;
 }
 
-header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-
-  height: 75px;
-  padding: 1rem;
-  color: white;
-  font-weight: bold;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.menu{}
-.menu li { 
-  list-style: none;
-  list-style-type: none;
-  margin-left: 50px;
-  float: left;
-  align-items: center;
-}
-.menu a {
-  color: white;
-  display: block;
-  text-decoration-line: none;
-  text-decoration: none;
-  text-shadow: -2px 0px black, 0px 2px black, 2px 0px black, 0px -2px black;
-}
-
-.menu a:hover {
-  color: aquamarine;
-  font-size: 150%;
-}
-
 /* HTML 화면이 꽉 차도록 설정 */
 body {
   margin: 0;
@@ -59,6 +23,43 @@ div {
   text-align: center;
 }
 
+/* 최상단 메뉴 바 스타일 지정 */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  height: 75px;
+  padding: 1rem;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.menu{}
+/* 메뉴 리스트화 및 좌우 정렬 */
+.menu li { 
+  list-style: none;
+  list-style-type: none;
+  margin-left: 50px;
+  float: left;
+  align-items: center;
+}
+/* 리스트 내 폰트 세부설정 */
+.menu a {
+  color: white;
+  text-decoration-line: none;
+  text-decoration: none;
+  text-shadow: -2px 0px black, 0px 2px black, 2px 0px black, 0px -2px black;
+}
+/* 메뉴에 마우스 호버링 시 색상 및 크기 변경 애니메이션 */
+.menu a:hover {
+  color: aquamarine;
+  font-size: 150%;
+}
+
 /* 최상단 메인화면 섹션 설정 */
 .section1 {
   display: flex;
@@ -70,6 +71,64 @@ div {
   background-position: center;
   background-size: cover;
   background: url("../Images/background.jpg") no-repeat center/cover;
+}
+.section1 p {
+  font-size: 200%;
+  color: white; 
+  line-height: 70%;
+}
+
+/* 섹션 별 기본 스타일 설정 */
+.section_base
+{
+  font-size: 32px;
+  text-align: center;
+  background-color: azure;
+}
+
+/* 각 섹션 위치의 타이틀 바 스타일 설정 */
+.about .title,
+.skills .title,
+.portfolio .title,
+.contact .title
+{
+  position: relative;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 500;
+  margin: 30px 0 100px 0;
+  padding-bottom: 8px;
+}
+
+.about .title::before,
+.skills .title::before,
+.portfolio .title::before,
+.contact .title::before
+{
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  width: 220px;
+  height: 3px;
+  background-color: black;
+  transform: translateX(-50%);
+}
+
+.about .title::after,
+.skills .title::after,
+.portfolio .title::after,
+.contact .title::after
+{
+  content: "";
+  position: absolute;
+  bottom: -38px;
+  left: 50%;
+  width: 250px;
+  font-size: 20px;
+  color: rgb(255, 164, 45);
+  padding: 5px;
+  transform: translateX(-50%);
 }
 
 /* 반응형 웹 사이트를 위한 미디어 쿼리 설정 */
@@ -104,6 +163,10 @@ div {
 
   .section_base {
     display: flex;
+  }
+
+  .resolutionchange {
+    text-align: left;
   }
 }
 

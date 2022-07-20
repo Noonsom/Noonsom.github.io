@@ -83,7 +83,28 @@ header {
 {
   font-size: 32px;
   text-align: center;
-  background-color: azure;
+  background-color: #eef7ff;
+}
+
+#cen_img {
+  display:block;
+  margin:auto;
+}
+
+.starback {
+  width: 15000px;
+  height: 15000px;
+  position: fixed;
+  pointer-events: none;
+  animation: rotate_image 450s linear infinite;transform-origin: 50% 50%;
+  background-image: url("/Images/Backstar.png");
+  background-repeat: repeat;
+}
+
+@keyframes rotate_image{
+  100% {
+      transform: rotate(360deg);
+  }
 }
 
 /* 각 섹션 위치의 타이틀 바 스타일 설정 */

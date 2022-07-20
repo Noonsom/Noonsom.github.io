@@ -9,7 +9,7 @@ window.onload = function(){
     // 마우스 휠 이벤트 가져오기
     item.addEventListener('mousewheel', function(event){
       event.preventDefault();
-
+      console.log("SCROOL");
       // 현재 섹션 위치를 저장 할 변수 선언
       let delta = 0;
 
@@ -67,6 +67,7 @@ window.onload = function(){
   {
     test = 2;
     window.location = window.location.origin + Urls[test];
+    
   }
 
   document.getElementById("Menu_History").onclick = function()

@@ -201,13 +201,47 @@ p {
   margin-right: auto;
 }
 
+.swiper-slide .titlename {
+  font-size: 200%;
+}
 
+.swiper-slide .youtubesize {
+  width: 460px;
+  height: 259px;
+}
 
+.swiper-slide .titletext {
+  font-size: 120%;
+}
 
+.swiper-slide .normaltext {
+  font-size: 80%;
+}
 
+.swiper-slide .iconify {
+  width: 18px;
+  height: 18px;
+  vertical-align: sub;
+}
 
+.swiper-slide .hyperlink {
+  color: blue;
+  cursor: pointer;
+}
 
+.swiper-slide .textboxalign {
+  text-align: left;
+  margin-left: 80px;
+  line-height: 20px;
+}
 
+.whiteborder {
+  margin-top: -9%;
+  align-items: center;
+  justify-content: center;
+  width: 610px;
+  height: 700px;
+}
 
 
 /* 반응형 웹 사이트를 위한 미디어 쿼리 설정 */
